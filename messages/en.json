@@ -1,32 +1,63 @@
 {
-  "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select, en {English} it {Italiano} other {Unknown}}"
-  },
-  "Header": {
-    "about": "About",
-    "products": "Products",
-    "Quality": "Quality"
-  },
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  },
-  "About": {
-    "title": "Chi siamo",
-    "sections": [
-      {
-        "title": "Our Treasure: the Territory",
-        "text": "Fimagri associates more than 60 agricultural companies that have productive sites along all Apulia’s northern plane, the “Tavoliere delle Puglie”; from the light terrains  and full of minerals next to Lesina and Varano Lakes, to the fertile lands downline of the Daunian Mountains.</p> <p>Our treasure really is this territory, which boasts uniques pedoclimatic conditions for vegetables plantations.",
-        "imageUrl": "/images/home/fimagri20.jpg",
-        "imageFirst": true
-      },
-      {
-        "title": "Our Goals: Sustainability, Food Safety, Innovation",
-        "text": "All Fimagri associates are gathered by:",
-        "imageUrl": "/images/home/fimagri20.jpg",
-        "imageFirst": false
-      }
-    ]
-  }
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, en {English} it {Italiano} other {Unknown}}"
+    },
+    "Header": {
+        "about": "About",
+        "products": "Products",
+        "quality": "Quality"
+    },
+    "Footer": {
+        "legal": "Legal office",
+        "operative": "Operative office",
+        "contacts": "Contacts",
+        "rights": "All rights reserved"
+    },
+    "HomePage": {
+        "title": "Hello world!",
+        "sections": [
+            {
+                "title": "About",
+                "text": "<p>Fimagri is an Organization of Producers born to valorize its associates’ land products.</p> <p>It was born in 2004 due to a group of farmers, enthusiastic about their work, who shared the idea of <strong>making a healthy agriculture</strong>.</p><p>The main goal of our organization is to <strong>produce in harmony with nature</strong>, hence, we choose only partners that manage their companies with legality and frankness, and that cultivate their land opting for good agricultural procedures complying with environment and safety of human beings.</p>",
+                "imageUrl": "/images/about/fimagri20.jpg",
+                "imageFirst": false
+            },
+            {
+                "title": "Quality",
+                "text": "<p>Fimagri works hard to reach high quality standards, in accordance with the environment, the food safety and the workers’ safety.</p>",
+                "imageUrl": "/images/about/fimagri41.jpg",
+                "imageFirst": true
+            }
+        ]
+    },
+    "About": {
+        "title": "About us",
+        "sections": [
+            {
+                "title": "Our Treasure: the Territory",
+                "text": "<p>Fimagri associates more than 60 agricultural companies that have productive sites along all Apulia’s northern plane, the “Tavoliere delle Puglie”; from the light terrains  and full of minerals next to Lesina and Varano Lakes, to the fertile lands downline of the Daunian Mountains.</p> <p>Our treasure really is this territory, which boasts uniques pedoclimatic conditions for vegetables plantations.</p>",
+                "imageUrl": "/images/about/fimagri20.jpg",
+                "imageFirst": true
+            },
+            {
+                "title": "Our Goals: Sustainability, Food Safety, Innovation",
+                "text": "<p>All Fimagri associates are gathered by:</p> <li>Passion for agricultural work</li><li>Strong bond with the territory</li><li>Experience and specific Proficiency</li><li>Continuous technical Research and Innovation</li></ul> <p>These element allow Fimagri to offer product s obtained with the best agricultural procedures done complying with ethical, environmental, and food safety procedures.</p>",
+                "imageUrl": "/images/about/fimagri41.jpg",
+                "imageFirst": false
+            },
+            {
+                "title": "Our Strength: Collaboration ...",
+                "text": "<p>Fimagri believes in the value of co-operation, seen as entrepreneurial spirit.</p><p>The strength f co-operation allows agricultural companies to maintain their identity and, at the same time, to participate in a common management to reach ambitious challenges, such as <strong>export, markets, and ecological, digital and social transition</strong>.</p> <p>In order to reach those goals, Fimagri implemented a productive process open up to innovations for sustainable development and exploitation of its associates’ productions.</p>",
+                "imageUrl": "/images/about/fimagri06.jpg",
+                "imageFirst": true
+            },
+            {
+                "title": "... and Team Play",
+                "text": "<p>Equipped with a qualified technical-agronomic staff, Fimagri follows its farmers in all production steps, giving birth to a constant and reliable team play.</p>",
+                "imageUrl": "/images/about/fimagri18.jpg",
+                "imageFirst": false
+            }
+        ]
+    }
 }

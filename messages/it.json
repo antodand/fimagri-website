@@ -6,25 +6,58 @@
     "Header": {
         "about": "Chi siamo",
         "products": "Prodotti",
-        "Quality": "Qualità"
+        "quality": "Qualità"
+    },
+    "Footer": {
+        "legal": "Sede legale",
+        "operative": "Sede operativa",
+        "contacts": "Contatti",
+        "rights": "Tutti i diritti riservati"
     },
     "HomePage": {
         "title": "Ciao mondo!",
-        "about": "Vai alla pagina about"
+        "sections": [
+            {
+                "title": "Chi siamo",
+                "text": "<p>Fimagri è un’Organizzazione di Produttori Ortofrutticoli nata per valorizzare i prodotti della terra dei propri soci.</p> <p>Nasce nel 2004 per volontà di un gruppo di agricoltori, appassionati del proprio lavoro, che condividono l’idea di <strong>voler fare un’agricoltura sana</strong>.</p><p>L’obiettivo principale della nostra realtà è <strong>produrre in armonia con la natura</strong> e per questo scegliamo solo partners che fanno impresa e gestiscono le loro aziende con legalità e trasparenza e che coltivano i loro terreni adottando buone pratiche agricole nel rispetto dell’ambiente e della salute dell’uomo.</p>",
+                "learnMore": "Scopri di più",
+                "imageUrl": "/images/about/fimagri20.jpg",
+                "imageFirst": false
+            },
+            {
+                "title": "Qualità",
+                "text": "<p>Fimagri si impegna per raggiungere elevati standard qualitativi, nel rispetto dell’ambiente, della sicurezza del cibo e dei lavoratori.</p>",
+                "learnMore": "Scopri di più",
+                "imageUrl": "/images/about/fimagri41.jpg",
+                "imageFirst": true
+            }
+        ]
     },
     "About": {
         "title": "Chi siamo",
         "sections": [
             {
                 "title": "La Nostra Ricchezza: il Territorio",
-                "text": "Fimagri associa più di 60 aziende agricole che hanno siti produttivi lungo tutta la piana fertile del Tavoliere delle Puglie, dai terreni leggeri  e ricchi di minerali adiacenti ai laghi di Lesina e Varano, a quelli fertili  a valle del subappenino dauno.</p> <p>La nostra ricchezza è proprio questo territorio che vanta condizioni pedo-climatiche uniche per la coltivazione di ortaggi.",
-                "imageUrl": "/images/home/fimagri20.jpg",
+                "text": "<p>Fimagri associa più di 60 aziende agricole che hanno siti produttivi lungo tutta la piana fertile del Tavoliere delle Puglie, dai terreni leggeri  e ricchi di minerali adiacenti ai laghi di Lesina e Varano, a quelli fertili  a valle del subappenino dauno.</p><p>La nostra ricchezza è proprio questo territorio che vanta condizioni pedo-climatiche uniche per la coltivazione di ortaggi.</p>",
+                "imageUrl": "/images/about/fimagri20.jpg",
                 "imageFirst": true
             },
             {
                 "title": "I Nostri Obiettivi: Sostenibilità, Sicurezza alimentare, Innovazione",
-                "text": "Tutti i soci di Fimagri sono accomunati da:",
-                "imageUrl": "/images/home/fimagri20.jpg",
+                "text": "<p>Tutti i soci di Fimagri sono accomunati da:</p> <li>Passione per il lavoro agricolo</li><li>Forte legame con il territorio</li><li>Esperienza e competenza specifica</li><li>Continua ricerca tecnica e innovazione</li></ul> <p>Questi elementi permettono a Fimagri di offrire prodotti ottenuti secondo le migliori pratiche agricole eseguite nel rispetto dei principi etici, ambientali e della sicurezza alimentare.</p>",
+                "imageUrl": "/images/about/fimagri41.jpg",
+                "imageFirst": false
+            },
+            {
+                "title": "La Nostra Forza: La Cooperazione ...",
+                "text": "<p>Fimagri crede nel valore della cooperazione come strumento per fare impresa.</p><p>La forza dell’aggregazione permette alle aziende agricole socie di mantenere la propria identità e, al contempo, partecipare ad una gestione comune per raggiungere sfide ambiziose come <strong>l’export, i mercati, la transizione ecologica, digitale e sociale</strong>.</p><p>Per raggiungere queste sfide, Fimagri ha implementato un processo produttivo aperto alle innovazioni per lo sviluppo sostenibile e la valorizzazione delle produzioni dei propri soci.</p>",
+                "imageUrl": "/images/about/fimagri06.jpg",
+                "imageFirst": true
+            },
+            {
+                "title": "... e il gioco di Squadra",
+                "text": "<p>Dotata di un qualificato staff tecnico-agronomico, Fimagri segue i suoi agricoltori in tutte le fasi della produzione dando vita ad un assiduo ed affidabile gioco di squadra.</p>",
+                "imageUrl": "/images/about/fimagri18.jpg",
                 "imageFirst": false
             }
         ]

@@ -21,18 +21,20 @@ export function Header() {
 
   const t = useTranslations('Header');
 
+    {/* <nav className="bg-white-100 p-4 px-8 shadow-md"> */}
+
   return (
-    <nav className="bg-white-100 p-4 mx-8 shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/50 backdrop-blur-sm p-4 px-8 shadow-md">
       <div className="mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
           <Image src={Logo} alt="Fimagri" width="50" />
         </Link>
 
         {/* Menu Desktop */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-6 ">
           <Link href="/about" className="hover:text-lime-600">{t("about")}</Link>
-          <Link href="/products" className="hover:text-lime-600">Products</Link>
-          <Link href="/quality" className="hover:text-lime-600">Quality</Link>
+          <Link href="/products" className="hover:text-lime-600">{t("products")}</Link>
+          <Link href="/quality" className="hover:text-lime-600">{t("quality")}</Link>
           <LocaleSwitcher />
         </div>
 
