@@ -1,0 +1,17 @@
+{
+    "title": "Title",
+    "sections": [
+        {
+            "title": "Title of the section",
+            "text": "Text of the section",
+            "imageUrl": "/images/home/fimagri20.jpg",
+            "imageFirst": true
+        },
+        {
+            "title": "Title of the section",
+            "text": "Text of the section",
+            "imageUrl": "/images/home/fimagri20.jpg",
+            "imageFirst": false
+        }
+    ]
+}

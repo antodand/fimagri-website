@@ -1,10 +1,15 @@
 "use client";
 
+import {useTranslations} from 'next-intl';
+import {Link} from '@/src/i18n/navigation';
+
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
-import Link from 'next/link';
+import { useRouter } from "next/navigation";
 import Image from 'next/image';
 import Logo from '@/public/images/logo.png';
+
+import LocaleSwitcher from '@/src/components/LocaleSwitcher';
+
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +18,8 @@ export function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const t = useTranslations('Header');
 
   return (
     <nav className="bg-white-100 p-4 mx-8 shadow-md">
@@ -23,9 +30,10 @@ export function Header() {
 
         {/* Menu Desktop */}
         <div className="hidden md:flex space-x-6">
-          <Link href="/about" className="hover:text-lime-600">About</Link>
+          <Link href="/about" className="hover:text-lime-600">{t("about")}</Link>
           <Link href="/products" className="hover:text-lime-600">Products</Link>
           <Link href="/quality" className="hover:text-lime-600">Quality</Link>
+          <LocaleSwitcher />
         </div>
 
         {/* Bottone per il menu mobile */}

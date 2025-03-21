@@ -1,0 +1,32 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {English} it {Italiano} other {Unknown}}"
+  },
+  "Header": {
+    "about": "About",
+    "products": "Products",
+    "Quality": "Quality"
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "About": {
+    "title": "Chi siamo",
+    "sections": [
+      {
+        "title": "Our Treasure: the Territory",
+        "text": "Fimagri associates more than 60 agricultural companies that have productive sites along all Apulia’s northern plane, the “Tavoliere delle Puglie”; from the light terrains  and full of minerals next to Lesina and Varano Lakes, to the fertile lands downline of the Daunian Mountains.</p> <p>Our treasure really is this territory, which boasts uniques pedoclimatic conditions for vegetables plantations.",
+        "imageUrl": "/images/home/fimagri20.jpg",
+        "imageFirst": true
+      },
+      {
+        "title": "Our Goals: Sustainability, Food Safety, Innovation",
+        "text": "All Fimagri associates are gathered by:",
+        "imageUrl": "/images/home/fimagri20.jpg",
+        "imageFirst": false
+      }
+    ]
+  }
+}

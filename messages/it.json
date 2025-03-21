@@ -1,0 +1,32 @@
+{
+    "LocaleSwitcher": {
+        "label": "Cambia lingua",
+        "locale": "{locale, select, en {English} it {Italiano} other {Unknown}}"
+    },
+    "Header": {
+        "about": "Chi siamo",
+        "products": "Prodotti",
+        "Quality": "Qualità"
+    },
+    "HomePage": {
+        "title": "Ciao mondo!",
+        "about": "Vai alla pagina about"
+    },
+    "About": {
+        "title": "Chi siamo",
+        "sections": [
+            {
+                "title": "La Nostra Ricchezza: il Territorio",
+                "text": "Fimagri associa più di 60 aziende agricole che hanno siti produttivi lungo tutta la piana fertile del Tavoliere delle Puglie, dai terreni leggeri  e ricchi di minerali adiacenti ai laghi di Lesina e Varano, a quelli fertili  a valle del subappenino dauno.</p> <p>La nostra ricchezza è proprio questo territorio che vanta condizioni pedo-climatiche uniche per la coltivazione di ortaggi.",
+                "imageUrl": "/images/home/fimagri20.jpg",
+                "imageFirst": true
+            },
+            {
+                "title": "I Nostri Obiettivi: Sostenibilità, Sicurezza alimentare, Innovazione",
+                "text": "Tutti i soci di Fimagri sono accomunati da:",
+                "imageUrl": "/images/home/fimagri20.jpg",
+                "imageFirst": false
+            }
+        ]
+    }
+}

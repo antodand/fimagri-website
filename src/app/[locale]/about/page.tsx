@@ -1,4 +1,4 @@
-import Section from '@/components/Section';
+import Section from '@/src/components/Section';
 
 const sections = [
     {
@@ -11,7 +11,7 @@ const sections = [
         title: 'Chi siamo',
         text: 'Fimagri associa più di 60 aziende agricole che hanno siti produttivi lungo tutta la piana fertile del Tavoliere delle Puglie, dai terreni leggeri e ricchi di minerali adiacenti ai laghi di Lesina e Varano, a quelli fertili a valle del subappenino dauno. La nostra ricchezza è proprio questo territorio che vanta condizioni',
         imageUrl: '/images/home/fimagri20.jpg',
-        imageFirst: false,
+        imageFirst: true,
     },
 ];
 
