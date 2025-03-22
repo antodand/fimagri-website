@@ -11,6 +11,7 @@ export default function AboutPage() {
     title: string;
     text: string; // HTML string
     learnMore: string;
+    targetPage: string;
     imageUrl: string;
     imageFirst: boolean;
     isVideo: boolean;
@@ -29,13 +30,14 @@ export default function AboutPage() {
         key={index}
         title={section.title}
         text={section.text}
-        learnMore=''
+        learnMore={section.learnMore || ''}
+        targetPage={section.targetPage}
         imageUrl={section.imageUrl}
         imageFirst={section.imageFirst}
-        isVideo={section.isVideo}
-        videoUrl={section.videoUrl}
-        isWideText={index === sections.length - 1}
-        />
+        isVideo={section.isVideo ?? false}
+        videoUrl={section.videoUrl || ''}
+        isWideText={section.isWideText ?? false}
+    />
       ))}
     </div>
   );

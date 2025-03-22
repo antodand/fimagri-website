@@ -42,25 +42,25 @@
                 "title": "Our Treasure: the Territory",
                 "text": "<p>Fimagri associates more than 60 agricultural companies that have productive sites along all Apulia’s northern plane, the “Tavoliere delle Puglie”; from the light terrains  and full of minerals next to Lesina and Varano Lakes, to the fertile lands downline of the Daunian Mountains.</p> <p>Our treasure really is this territory, which boasts uniques pedoclimatic conditions for vegetables plantations.</p>",
                 "imageUrl": "/images/about/fimagri20.jpg",
-                "imageFirst": true
+                "imageFirst": false
             },
             {
                 "title": "Our Goals: Sustainability, Food Safety, Innovation",
                 "text": "<p>All Fimagri associates are gathered by:</p> <li>Passion for agricultural work</li><li>Strong bond with the territory</li><li>Experience and specific Proficiency</li><li>Continuous technical Research and Innovation</li></ul> <p>These element allow Fimagri to offer product s obtained with the best agricultural procedures done complying with ethical, environmental, and food safety procedures.</p>",
                 "imageUrl": "/images/about/fimagri41.jpg",
-                "imageFirst": false
+                "imageFirst": true
             },
             {
                 "title": "Our Strength: Collaboration ...",
                 "text": "<p>Fimagri believes in the value of co-operation, seen as entrepreneurial spirit.</p><p>The strength f co-operation allows agricultural companies to maintain their identity and, at the same time, to participate in a common management to reach ambitious challenges, such as <strong>export, markets, and ecological, digital and social transition</strong>.</p> <p>In order to reach those goals, Fimagri implemented a productive process open up to innovations for sustainable development and exploitation of its associates’ productions.</p>",
                 "imageUrl": "/images/about/fimagri06.jpg",
-                "imageFirst": true
+                "imageFirst": false
             },
             {
                 "title": "... and Team Play",
                 "text": "<p>Equipped with a qualified technical-agronomic staff, Fimagri follows its farmers in all production steps, giving birth to a constant and reliable team play.</p>",
                 "imageUrl": "/images/about/fimagri18.jpg",
-                "imageFirst": false
+                "imageFirst": true
             }
         ]
     },
@@ -87,6 +87,106 @@
                 "isVideo": true,
                 "videoUrl": "/videos/trappolaPomodoro.mp4",
                 "isWideText": true
+            }
+        ]
+    },
+    "Products": {
+        "title": "Products",
+        "items": [
+            {
+                "id": "green-asparagus",
+                "name": "Green asparagus",
+                "iconUrl": "/images/products/Asparago1.jpg",
+                "bannerImage": "/images/products/banners/BannerAsparago.png",
+                "introText": "",
+                "videoUrl": "/videos/AsparagoVideo.mp4",
+                "sections": [
+                    {
+                        "title": "Green asparagus",
+                        "text": "<p>Fimagri green asparagus is cultivated in light terrains of Tavoliere plains.</p> <p>Distinguished by a slim shape and a brilliant colour, our asparagus is appreciated for its sweet but strong flavour.</p> <p>Harvested during the day and in the right moment, the Fimagri green asparagus is cooled instantly to guarantee a better <em>shelf life</em> of the product.</p>",
+                        "imageUrl": "/images/products/Asparago1.jpg",
+                        "imageFirst": false
+                    },
+                    {
+                        "title": "",
+                        "text": "<p>After an accurate selection, Fimagri works on its asparagus in personalized packaging, diversified for calibre and weight, to satisfy needs of every type of customer.</p> <p>For the product distribution, Fimagri uses an organized and careful logistics, to guarantee a continuous cold chain to deliver the final consumer fresh asparagus, as quickly as possible.</p> <p>The Fimagri green asparagus is available from February to June.</p>",
+                        "imageUrl": "/images/products/Asparago2.jpg",
+                        "imageFirst": true
+                    }
+                ]
+            },
+            {
+                "id": "spinach",
+                "name": "Spinach",
+                "bannerImage": "/images/products/banners/BannerSpinacio.jpg",
+                "introText": "",
+                "videoUrl": "/videos/SpinacioVideo.mp4",
+                "sections": [
+                    {
+                        "title": "Spinach",
+                        "text": "<p>Cultivated in full field, in conveniently drained soil, the spinach occupies a relevant spot among Fimagri’s productions.</p> <p>Fimagri spinach, also in <em>baby leaf</em> size, shows up strong and with an intense green colour.</p> <p>The harvesting is done with innovative machines that allows a first selection already in the field.</p> <p>Later, the just harvested spinach, reaches the Fimagri processing site where, through optic selectors and manual controls, another selection is done based on high quality standards.</p>",
+                        "imageUrl": "/images/products/Spinacio1.jpg",
+                        "imageFirst": true
+                    },
+                    {
+                        "title": "",
+                        "text": "<p>Fimagri spinach, following the “<em>plastic free</em>” principles, is packed in reusable cases, immediately refrigerated and sent to the several national and European destinations with refrigerated vehicles meant to maintain the cool chain.</p> <p>Fimagri spinach is cultivated  according to the organic and integrated cultivation method and is available from October to April.</p>",
+                        "imageUrl": "/images/products/Spinacio2.jpg",
+                        "imageFirst": false
+                    }
+                ]
+            },
+            {
+                "id": "artichoke",
+                "name": "Artichoke",
+                "bannerImage": "/images/products/banners/BannerCarciofo.png",
+                "introText": "",
+                "videoUrl": "",
+                "sections": [
+                    {
+                        "title": "Artichoke",
+                        "text": "<p>The artichoke produced by Fimagri farms is green, round shaped and with a tender heart.</p> <p>Supported by sunny weather, the Fimagri artichoke has vigorous plants and fleshy fruits with a mild taste, particularly suitable for the best preserves and the fresh market. </p> <p>The Fimagri artichoke is cultivated with the method of integrated and biological production and it’s available from February to May. Commercial characteristics of the product and packaging can vary, depending on the customers’ demand.</p>",
+                        "imageUrl": "/images/products/Carciofo1.jpg",
+                        "imageFirst": true,
+                        "isWideText": true
+                    }
+                ]
+            },
+            {
+                "id": "broccoli-cabbage",
+                "name": "Broccoli cabbage",
+                "bannerImage": "/images/products/banners/BannerBroccolo.png",
+                "introText": "",
+                "videoUrl": "/videos/BroccoloVideo.mp4",
+                "sections": [
+                    {
+                        "title": "Broccoli cabbage",
+                        "text": "<p>The broccoli cabbage grown by Fimagri farms is earmarked for fresh market and is cultivated with the method of integrated and biological production.</p> <p>The Fimagri broccoli cabbage is available from October to April and the packaging can vary, depending on the customers’ demand.</p>",
+                        "imageUrl": "/images/products/Broccolo1.jpg",
+                        "imageFirst": false
+                    }
+                ]
+            },
+            {
+                "id": "tomato",
+                "name": "Tomato",
+                "bannerImage": "/images/products/banners/BannerPomodoro.png",
+                "introText": "",
+                "videoUrl": "",
+                "sections": [
+                    {
+                        "title": "Tomato",
+                        "text": "<p>Fimagri was born as an organization of tomato’s producers, aiming at the aggregation of farms that for more than 50 years have been devoted to the cultivation of this precious vegetable, appreciated all over the world.</p> <p>Grown in the sunny plaines of Tavoliere, the red tomato cultivated in Apulia is characterized by a sweet taste, an intense flavour and a solid and substantial pulp, suitable for transformation for private and industrial canned food.</p>",
+                        "imageUrl": "/images/products/Pomodoro1.png",
+                        "imageFirst": true
+                    },
+                    {
+                        "title": "",
+                        "text": "<p>The experience and the professionality of producer members allowed Fimagri to affirm itself as a serious and qualified organization and ensured it business relations with brand leaders of its sector.</p> <p>Aided by a highly qualified technical staff that cooperates with the world of scientific research, Fimagri takes care of every phase of the production process from choosing seeds, planted in trusty nursery of associated companies, to collecting and delivering the product.</p> <p>The Fimagri tomato is cultivated with the method of integrated and biological production and it’s available from July to October.</p>",
+                        "imageUrl": "/images/products/Pomodoro2.png",
+                        "imageFirst": false
+                    }
+                ]
             }
         ]
     }

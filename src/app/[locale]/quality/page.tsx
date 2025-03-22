@@ -10,6 +10,7 @@ export default function AboutPage() {
     title: string;
     text: string; // HTML string
     learnMore: string;
+    targetPage: string;
     imageUrl: string;
     imageFirst: boolean;
     isVideo: boolean;
@@ -25,15 +26,16 @@ export default function AboutPage() {
 
       {sections.map((section, index) => (
         <Section
-          key={index}
-          title={section.title}
-          text={section.text}
-          learnMore=''
-          imageUrl={section.imageUrl}
-          imageFirst={section.imageFirst}
-          isVideo={section.isVideo}
-          videoUrl={section.videoUrl}
-          isWideText={index === sections.length - 1}
+        key={index}
+        title={section.title}
+        text={section.text}
+        learnMore={section.learnMore || ''}
+        targetPage={section.targetPage}
+        imageUrl={section.imageUrl}
+        imageFirst={section.imageFirst}
+        isVideo={section.isVideo ?? false}
+        videoUrl={section.videoUrl || ''}
+        isWideText={section.isWideText ?? false}
         />
       ))}
     </div>
