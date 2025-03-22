@@ -40,25 +40,51 @@
                 "title": "La Nostra Ricchezza: il Territorio",
                 "text": "<p>Fimagri associa più di 60 aziende agricole che hanno siti produttivi lungo tutta la piana fertile del Tavoliere delle Puglie, dai terreni leggeri  e ricchi di minerali adiacenti ai laghi di Lesina e Varano, a quelli fertili  a valle del subappenino dauno.</p><p>La nostra ricchezza è proprio questo territorio che vanta condizioni pedo-climatiche uniche per la coltivazione di ortaggi.</p>",
                 "imageUrl": "/images/about/fimagri20.jpg",
-                "imageFirst": true
+                "imageFirst": false
             },
             {
                 "title": "I Nostri Obiettivi: Sostenibilità, Sicurezza alimentare, Innovazione",
                 "text": "<p>Tutti i soci di Fimagri sono accomunati da:</p> <li>Passione per il lavoro agricolo</li><li>Forte legame con il territorio</li><li>Esperienza e competenza specifica</li><li>Continua ricerca tecnica e innovazione</li></ul> <p>Questi elementi permettono a Fimagri di offrire prodotti ottenuti secondo le migliori pratiche agricole eseguite nel rispetto dei principi etici, ambientali e della sicurezza alimentare.</p>",
                 "imageUrl": "/images/about/fimagri41.jpg",
-                "imageFirst": false
+                "imageFirst": true
             },
             {
                 "title": "La Nostra Forza: La Cooperazione ...",
                 "text": "<p>Fimagri crede nel valore della cooperazione come strumento per fare impresa.</p><p>La forza dell’aggregazione permette alle aziende agricole socie di mantenere la propria identità e, al contempo, partecipare ad una gestione comune per raggiungere sfide ambiziose come <strong>l’export, i mercati, la transizione ecologica, digitale e sociale</strong>.</p><p>Per raggiungere queste sfide, Fimagri ha implementato un processo produttivo aperto alle innovazioni per lo sviluppo sostenibile e la valorizzazione delle produzioni dei propri soci.</p>",
                 "imageUrl": "/images/about/fimagri06.jpg",
-                "imageFirst": true
+                "imageFirst": false
             },
             {
                 "title": "... e il gioco di Squadra",
                 "text": "<p>Dotata di un qualificato staff tecnico-agronomico, Fimagri segue i suoi agricoltori in tutte le fasi della produzione dando vita ad un assiduo ed affidabile gioco di squadra.</p>",
                 "imageUrl": "/images/about/fimagri18.jpg",
+                "imageFirst": true
+            }
+        ]
+    },
+    "Quality": {
+        "title": "Qualità",
+        "sections": [
+            {
+                "title": "Qualità certificata",
+                "text": "<p>Al fine di garantire standard qualitativi elevati, Fimagri, iscritta alla “Rete del Lavoro Agricolo di Qualità”, ha scelto di certificare i suoi prodotti GlobalG.A.P. modulo G.R.A.S.P., NURTURE Module, LEAF Marque, sistemi di certificazione volontaria basati su rigide linee guida volte a migliorare tutti gli aspetti del processo produttivo, con particolare attenzione alla salute umana, all’ambiente e al welfare dei lavoratori.</p>",
+                "imageUrl": "/images/quality/fimagri42.jpg",
                 "imageFirst": false
+            },
+            {
+                "title": "Sicurezza alimentare",
+                "text": "<p>Tutti i processi produttivi sono pensati, realizzati e controllati per garantire al consumatore un prodotto sano e sicuro.</p> <p>E’ sempre possibile definire l’origine dei prodotti Fimagri grazie ad un accurato e capillare sistema di tracciabilità, basato sull’identificazione puntuale delle singole unità produttive agricole, accorciando sempre più la distanza che separa consumatore e produttore.</p>",
+                "imageUrl": "/images/quality/fimagri85.jpg",
+                "imageFirst": true
+            },
+            {
+                "title": "Sostenibilità, Ricerca ed Innovazione",
+                "text": "<p>Fimagri si pone come obiettivo principale il rispetto della natura.</p> <p>Tutte le aziende agricole associate condividono processi di produzione, progettati e coordinati da Fimagri, per la realizzazione di un’agricoltura sana che tutela la terra e il suo valore.</p> <p>In questo contesto, Fimagri è attivamente impegnata in progetti di ricerca innovativi a supporto di uno sviluppo agricolo rurale in sintonia con il territorio e con l’ottimizzazione delle risorse disponibili.</p> <p>Grazie all’esperienza dei nostri agricoltori, alle specifiche competenze del team tecnico-agronomico e al supporto della tecnologia, Fimagri lavora quotidianamente per il raggiungimento dei seguenti obiettivi:</p> <li>Razionalizzare l’uso dei prodotti fitosanitari per la difesa delle colture, favorendo l’impiego di mezzi di controllo a basso impatto e aumentando le superfici produttive condotte in biologico </li> <li>Gestire la “risorsa Acqua” in modo responsabile e razionale, mediante l’uso di metodi irrigui ad alta efficienza in funzione delle esigenze della coltura</li> <li>Gestire in modo sostenibile la “risorsa suolo”, applicando le buone pratiche agricole e tecniche innovative a tutela della sostanza organica e della biodiversità</li> <li>Razionalizzare il consumo di plastica nei processi produttivi mediante l’impiego di cassette da imballaggio riutilizzabili</li>",
+                "imageUrl": "",
+                "imageFirst": false,
+                "isVideo": true,
+                "videoUrl": "/videos/trappolaPomodoro.mp4",
+                "isWideText": true
             }
         ]
     }

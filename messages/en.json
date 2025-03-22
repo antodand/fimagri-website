@@ -59,5 +59,28 @@
                 "imageFirst": false
             }
         ]
+    },
+    "Quality": {
+        "title": "Quality",
+        "sections": [
+            {
+                "title": "Certified Quality",
+                "text": "<p>To guarantee high quality standards, Fimagri, subscribed to “Quality Agricultural Work Network”, choose to certify its product Global G.A.P. G.R.A.S.P. module, NURTURE Module, LEAF Marque: voluntary certification systems based on guidelines intended to enhance all the aspects of the productive process, particularly concentrating on human beings safety, environment, and workers welfare.</p>",
+                "imageUrl": "/images/quality/fimagri42.jpg",
+                "imageFirst": false
+            },
+            {
+                "title": "Food Safety",
+                "text": "<p>All productive processes are designed, implemented and controlled to guarantee to the consumer a safe and healthy product.</p> <p>It’s always possible to define Fimagri’s product origin thanks to an accurate and widespread traceability system, based on precise identification of the single agricultural productive units, shortening more and more the distance between consumer and producer.</p>",
+                "imageUrl": "/images/quality/fimagri85.jpg",
+                "imageFirst": true
+            },
+            {
+                "title": "Sustainability, Research and Innovation",
+                "text": "<p>Fimagri’s main goal is the respect of the nature.</p> <p>All the associated agricultural companies share production processes, implemented and organized by Fimagri, for the realization of a healthy agriculture that protect the land and its worth.</p> <p>In this context, Fimagri is active in innovative research projects supporting a rural agricultural development in tune with the territory and with the optimization of the available resources.</p> <p>Thanks to the experience of our farmers, the specific expertise of the technical-agronomic team, and the support from technology, Fimagri works daily for the achievement of the following goals:</p> <li>Rationalise the use of phytosanitary products for the defence of the cultivations, favouring the us of control means with low impact, and increasing the organic productive surfaces</li> <li>Manage the “Water resource” in a responsible and rational manner, with the use of irrigation methods with high efficiency in function of the needs of the cultivation</li> <li>Manage in a sustainable way the “soil resource”, adopting good agricultural processes and innovative techniques that protect the organic substance and the biodiversity</li> <li>Rationalise the plastic consume in the productive processes with the use of reusable packing cases</li>",
+                "imageUrl": "/images/about/fimagri06.jpg",
+                "imageFirst": false
+            }
+        ]
     }
 }

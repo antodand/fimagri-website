@@ -36,7 +36,7 @@ export default function LocaleSwitcherButtons({ currentLocale }: Props) {
   }
 
   return (
-    <div className="flex space-x-2">
+    <div className="flex space-x-4">
       {locales.map(({ code, flag }) => (
         <button
           key={code}
@@ -45,7 +45,7 @@ export default function LocaleSwitcherButtons({ currentLocale }: Props) {
             'text-lg', // bandiera più piccola
             'transition-opacity duration-200',
             isPending && 'pointer-events-none',
-            currentLocale === code ? 'opacity-100' : 'opacity-50'
+            currentLocale === code ? 'opacity-30' : 'opacity-100'
           )}
           title={code.toUpperCase()}
         >
