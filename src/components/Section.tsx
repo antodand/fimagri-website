@@ -10,6 +10,7 @@ interface SectionProps {
     title: string;
     text: string; // HTML string
     learnMore: string;
+    targetPage: string;
     imageUrl: string;
     imageFirst: boolean;
     isVideo: boolean;
@@ -17,7 +18,7 @@ interface SectionProps {
     isWideText: boolean;
 }
 
-const Section: React.FC<SectionProps> = ({ title, text, learnMore, imageUrl, imageFirst, isVideo, videoUrl, isWideText = false }) => {
+const Section: React.FC<SectionProps> = ({ title, text, learnMore, targetPage, imageUrl, imageFirst, isVideo, videoUrl, isWideText = false }) => {
     return (
         <section className="section-container flex flex-col md:flex-row items-center my-32">
             {imageFirst ? (
@@ -31,7 +32,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, imageUrl, ima
                                 muted
                                 loop
                                 playsInline
-                                className="w-full rounded-r-xl"
+                                className="w-full rounded-r-xl shadow-md"
                             />
                         ) : (
                             <Image
@@ -40,7 +41,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, imageUrl, ima
                                 width={500}
                                 height={300}
                                 layout="responsive"
-                                className="w-full rounded-r-xl"
+                                className="w-full rounded-r-xl shadow-md"
                             />
                         )}
                     </div>
@@ -51,7 +52,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, imageUrl, ima
                         <div className="mt-4 space-y-4 text-gray-700">
                             <ClientOnly>{parse(text)}</ClientOnly>
                             {learnMore && (
-                                <Link href="/about" className="font-bold text-lime-600">
+                                <Link href={`/${targetPage}`} className="font-bold text-lime-600">
                                     {learnMore}
                                 </Link>
                             )}
@@ -66,7 +67,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, imageUrl, ima
                         <div className="mt-4 space-y-4 text-gray-700">
                             <ClientOnly>{parse(text)}</ClientOnly>
                             {learnMore && (
-                                <Link href="/about" className="font-bold text-lime-600">
+                                <Link href={`/${targetPage}`} className="font-bold text-lime-600">
                                     {learnMore}
                                 </Link>
                             )}
@@ -82,7 +83,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, imageUrl, ima
                                 muted
                                 loop
                                 playsInline
-                                className="w-full rounded-l-xl"
+                                className="w-full rounded-l-xl shadow-md"
                             />
                         ) : (
                             <Image
@@ -91,7 +92,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, imageUrl, ima
                                 width={500}
                                 height={300}
                                 layout="responsive"
-                                className="w-full rounded-l-xl"
+                                className="w-full rounded-l-xl shadow-md"
                             />
                         )}
                     </div>

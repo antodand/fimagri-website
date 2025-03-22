@@ -21,6 +21,7 @@
                 "title": "Chi siamo",
                 "text": "<p>Fimagri è un’Organizzazione di Produttori Ortofrutticoli nata per valorizzare i prodotti della terra dei propri soci.</p> <p>Nasce nel 2004 per volontà di un gruppo di agricoltori, appassionati del proprio lavoro, che condividono l’idea di <strong>voler fare un’agricoltura sana</strong>.</p><p>L’obiettivo principale della nostra realtà è <strong>produrre in armonia con la natura</strong> e per questo scegliamo solo partners che fanno impresa e gestiscono le loro aziende con legalità e trasparenza e che coltivano i loro terreni adottando buone pratiche agricole nel rispetto dell’ambiente e della salute dell’uomo.</p>",
                 "learnMore": "Scopri di più",
+                "targetPage": "about",
                 "imageUrl": "/images/about/fimagri20.jpg",
                 "imageFirst": false
             },
@@ -28,6 +29,7 @@
                 "title": "Qualità",
                 "text": "<p>Fimagri si impegna per raggiungere elevati standard qualitativi, nel rispetto dell’ambiente, della sicurezza del cibo e dei lavoratori.</p>",
                 "learnMore": "Scopri di più",
+                "targetPage": "quality",
                 "imageUrl": "/images/about/fimagri41.jpg",
                 "imageFirst": true
             }

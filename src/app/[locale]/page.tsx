@@ -10,6 +10,7 @@ export default function HomePage() {
     title: string;
     text: string;
     learnMore: string;
+    targetPage: string;
     imageUrl: string;
     imageFirst: boolean;
     isVideo: boolean;
@@ -20,7 +21,7 @@ export default function HomePage() {
   return (
     <div className="relative">
       {/* Hero video */}
-      <div className="relative h-screen w-full overflow-hidden">
+      <div className="relative h-screen w-full overflow-hidden shadow-md">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
           src="/videos/hero.mp4"
@@ -39,6 +40,7 @@ export default function HomePage() {
             title={section.title}
             text={section.text}
             learnMore={section.learnMore || ''}
+            targetPage={section.targetPage}
             imageUrl={section.imageUrl}
             imageFirst={section.imageFirst}
             isVideo={section.isVideo ?? false}

@@ -20,12 +20,16 @@
             {
                 "title": "About",
                 "text": "<p>Fimagri is an Organization of Producers born to valorize its associates’ land products.</p> <p>It was born in 2004 due to a group of farmers, enthusiastic about their work, who shared the idea of <strong>making a healthy agriculture</strong>.</p><p>The main goal of our organization is to <strong>produce in harmony with nature</strong>, hence, we choose only partners that manage their companies with legality and frankness, and that cultivate their land opting for good agricultural procedures complying with environment and safety of human beings.</p>",
+                "learnMore": "Learn more",
+                "targetPage": "about",
                 "imageUrl": "/images/about/fimagri20.jpg",
                 "imageFirst": false
             },
             {
                 "title": "Quality",
                 "text": "<p>Fimagri works hard to reach high quality standards, in accordance with the environment, the food safety and the workers’ safety.</p>",
+                "learnMore": "Learn more",
+                "targetPage": "quality",
                 "imageUrl": "/images/about/fimagri41.jpg",
                 "imageFirst": true
             }
@@ -78,8 +82,11 @@
             {
                 "title": "Sustainability, Research and Innovation",
                 "text": "<p>Fimagri’s main goal is the respect of the nature.</p> <p>All the associated agricultural companies share production processes, implemented and organized by Fimagri, for the realization of a healthy agriculture that protect the land and its worth.</p> <p>In this context, Fimagri is active in innovative research projects supporting a rural agricultural development in tune with the territory and with the optimization of the available resources.</p> <p>Thanks to the experience of our farmers, the specific expertise of the technical-agronomic team, and the support from technology, Fimagri works daily for the achievement of the following goals:</p> <li>Rationalise the use of phytosanitary products for the defence of the cultivations, favouring the us of control means with low impact, and increasing the organic productive surfaces</li> <li>Manage the “Water resource” in a responsible and rational manner, with the use of irrigation methods with high efficiency in function of the needs of the cultivation</li> <li>Manage in a sustainable way the “soil resource”, adopting good agricultural processes and innovative techniques that protect the organic substance and the biodiversity</li> <li>Rationalise the plastic consume in the productive processes with the use of reusable packing cases</li>",
-                "imageUrl": "/images/about/fimagri06.jpg",
-                "imageFirst": false
+                "imageUrl": "",
+                "imageFirst": false,
+                "isVideo": true,
+                "videoUrl": "/videos/trappolaPomodoro.mp4",
+                "isWideText": true
             }
         ]
     }
