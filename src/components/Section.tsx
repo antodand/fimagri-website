@@ -18,13 +18,27 @@ interface SectionProps {
     isWideText: boolean;
 }
 
-const Section: React.FC<SectionProps> = ({ title, text, learnMore, targetPage, imageUrl, imageFirst, isVideo, videoUrl, isWideText = false }) => {
+const Section: React.FC<SectionProps> = ({
+    title,
+    text,
+    learnMore,
+    targetPage,
+    imageUrl,
+    imageFirst,
+    isVideo,
+    videoUrl,
+    isWideText = false
+}) => {
+    // Classi Tailwind esplicite per evitare problemi con purge
+    const textWidthClass = isWideText ? 'md:w-2/3' : 'md:w-1/2';
+    const mediaWidthClass = isWideText ? 'md:w-1/3' : 'md:w-1/2';
+
     return (
         <section className="section-container flex flex-col md:flex-row items-center my-32">
             {imageFirst ? (
                 <>
                     {/* Media (Video o Immagine) */}
-                    <div className={`section-media md:w-${isWideText ? '1/3' : '1/2'} pr-8 py-8`}>
+                    <div className={`section-media ${mediaWidthClass} pr-8 py-8`}>
                         {isVideo ? (
                             <video
                                 src={videoUrl || imageUrl}
@@ -36,7 +50,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, targetPage, i
                             />
                         ) : (
                             <Image
-                                src={imageUrl!}
+                                src={imageUrl}
                                 alt={title}
                                 width={500}
                                 height={300}
@@ -47,7 +61,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, targetPage, i
                     </div>
 
                     {/* Testo */}
-                    <div className={`section-content md:w-${isWideText ? '2/3' : '1/2'} px-16`}>
+                    <div className={`section-content ${textWidthClass} px-16`}>
                         <h2 className="text-2xl font-bold text-lime-600">{title}</h2>
                         <div className="mt-4 space-y-4 text-gray-700">
                             <ClientOnly>{parse(text)}</ClientOnly>
@@ -62,7 +76,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, targetPage, i
             ) : (
                 <>
                     {/* Testo */}
-                    <div className={`section-content md:w-${isWideText ? '2/3' : '1/2'} px-16`}>
+                    <div className={`section-content ${textWidthClass} px-16`}>
                         <h2 className="text-2xl font-bold text-lime-600">{title}</h2>
                         <div className="mt-4 space-y-4 text-gray-700">
                             <ClientOnly>{parse(text)}</ClientOnly>
@@ -75,11 +89,11 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, targetPage, i
                     </div>
 
                     {/* Media */}
-                    <div className={`section-media md:w-${isWideText ? '1/3' : '1/2'} pl-8 py-8`}>
+                    <div className={`section-media ${mediaWidthClass} pl-8 py-8`}>
                         {isVideo ? (
                             <video
                                 src={videoUrl || imageUrl}
-                                                                autoPlay
+                                autoPlay
                                 muted
                                 loop
                                 playsInline
@@ -87,7 +101,7 @@ const Section: React.FC<SectionProps> = ({ title, text, learnMore, targetPage, i
                             />
                         ) : (
                             <Image
-                                src={imageUrl!}
+                                src={imageUrl}
                                 alt={title}
                                 width={500}
                                 height={300}

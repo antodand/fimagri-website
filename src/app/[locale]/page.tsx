@@ -17,6 +17,7 @@ export default function HomePage() {
     videoUrl: string;
     isWideText: boolean;
   }>;
+  
 
   return (
     <div className="relative">

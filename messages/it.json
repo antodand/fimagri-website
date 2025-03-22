@@ -89,5 +89,105 @@
                 "isWideText": true
             }
         ]
+    },
+    "Products": {
+        "title": "Prodotti",
+        "items": [
+            {
+                "id": "green-asparagus",
+                "name": "Asparago verde",
+                "iconUrl": "/images/products/Asparago1.jpg",
+                "bannerImage": "/images/products/banners/BannerAsparago.png",
+                "introText": "",
+                "videoUrl": "/videos/AsparagoVideo.mp4",
+                "sections": [
+                    {
+                        "title": "Asparago verde",
+                        "text": "<p>L’asparago verde Fimagri è coltivato nei terreni leggeri della pianura del Tavoliere.</p> <p>Distinto da una forma slanciata e da un colore brillante, il nostro asparago è apprezzato per il suo sapore dolce, ma deciso.</p> <p>Raccolto in giornata e al momento giusto, l’asparago verde Fimagri viene immediatamente raffreddato per garantire una migliore <em>shelf life</em> del prodotto.</p>",
+                        "imageUrl": "/images/products/Asparago1.jpg",
+                        "imageFirst": false
+                    },
+                    {
+                        "title": "",
+                        "text": "<p>Dopo un’accurata selezione, Fimagri lavora i suoi asparagi  in confezioni personalizzate, distinte sulla base del calibro e del peso, in modo da soddisfare le esigenze di ogni tipo di clientela.</p> <p>Per la distribuzione del prodotto, Fimagri si avvale di una logistica organizzata e attenta al fine di garantire una continua catena del freddo per consegnare al consumatore finale asparagi freschissimi e nel minor tempo possibile.</p> <p>L’asparago verde Fimagri è disponibile da febbraio a giugno.</p>",
+                        "imageUrl": "/images/products/Asparago2.jpg",
+                        "imageFirst": true
+                    }
+                ]
+            },
+            {
+                "id": "spinach",
+                "name": "Spinacio",
+                "bannerImage": "/images/products/banners/BannerSpinacio.jpg",
+                "introText": "",
+                "videoUrl": "/videos/SpinacioVideo.mp4",
+                "sections": [
+                    {
+                        "title": "Spinacio",
+                        "text": "<p>Coltivato in pieno campo in terreni opportunamente drenati, lo spinacio occupa un posto di rilievo tra le produzioni Fimagri.</p> <p>Lo spinacio Fimagri, anche nella tipologia <em>baby leaf</em>, si presenta robusto e di colore verde intenso. </p> <p>La raccolta dello spinacio viene effettuata con macchine innovative che permettono una prima selezione del prodotto già in campo.</p> <p>Successivamente, lo spinacio appena raccolto raggiunge il sito di lavorazione Fimagri dove, mediante selezionatrici ottiche e controlli manuali, viene effettuata un’ulteriore cernita di prodotto secondo elevati standard qualitativi.</p>",
+                        "imageUrl": "/images/products/Spinacio1.jpg",
+                        "imageFirst": true
+                    },
+                    {
+                        "title": "",
+                        "text": "<p>Lo spinacio Fimagri, nel rispetto dei principi del <em>“plastic free”</em>, è confezionato in casse da imballaggio riutilizzabili, immediatamente refrigerato e inviato presso le diverse destinazioni nazionali e europee mediante veicoli refrigerati atti a garantire la catena del freddo.</p> <p>Lo spinacio Fimagri viene coltivato secondo il metodo della produzione integrata e biologica ed è disponibile da ottobre ad aprile.</p>",
+                        "imageUrl": "/images/products/Spinacio2.jpg",
+                        "imageFirst": false
+                    }
+                ]
+            },
+            {
+                "id": "artichoke",
+                "name": "Carciofo",
+                "bannerImage": "/images/products/banners/BannerCarciofo.png",
+                "introText": "",
+                "videoUrl": "",
+                "sections": [
+                    {
+                        "title": "Carciofo",
+                        "text": "<p>Il carciofo prodotto dalle aziende agricole di Fimagri è verde, dalla forma rotonda e dal cuore tenerissimo.</p> <p>Favorito dal clima soleggiato, il carciofo Fimagri presenta piante vigorose e frutti carnosi dal gusto delicato, particolarmente idonei per le migliori conserve e il mercato fresco.</p> <p>Il carciofo Fimagri è coltivato secondo il metodo della produzione integrata e biologica ed è disponibile da febbraio a maggio. Le caratteristiche commerciali del prodotto e il packaging sono variabili a seconda delle richieste del cliente.</p>",
+                        "imageUrl": "/images/products/Carciofo1.jpg",
+                        "imageFirst": true,
+                        "isWideText": true
+                    }
+                ]
+            },
+            {
+                "id": "broccoli-cabbage",
+                "name": "Cavolo broccolo",
+                "bannerImage": "/images/products/banners/BannerBroccolo.png",
+                "introText": "",
+                "videoUrl": "/videos/BroccoloVideo.mp4",
+                "sections": [
+                    {
+                        "title": "Cavolo broccolo",
+                        "text": "<p>Il cavolo broccolo prodotto dalle aziende agricole di Fimagri è destinato al mercato fresco ed è coltivato secondo il metodo della produzione integrata e biologica.</p> <p>Il cavolo broccolo Fimagri è disponibile da ottobre a aprile e il packaging è variabile a seconda delle richieste del cliente.</p>",
+                        "imageUrl": "/images/products/Broccolo1.jpg",
+                        "imageFirst": false
+                    }
+                ]
+            },
+            {
+                "id": "tomato",
+                "name": "Pomodoro",
+                "bannerImage": "/images/products/banners/BannerPomodoro.png",
+                "introText": "",
+                "videoUrl": "",
+                "sections": [
+                    {
+                        "title": "Pomodoro",
+                        "text": "<p>Fimagri nasce come organizzazione di produttori di pomodoro puntando sull’aggregazione di aziende agricole che da oltre 50 anni sono dedite alla coltivazione di questo prezioso ortaggio apprezzato in tutto il mondo.</p> <p>Coltivato nelle piane soleggiate del Tavoliere,  il  pomodoro rosso coltivato in Puglia è caratterizzato dal gusto dolce, dal sapore intenso e da una polpa soda e consistente, idonea alla trasformazione per le conserve alimentari private e industriali.</p>",
+                        "imageUrl": "/images/products/Pomodoro1.png",
+                        "imageFirst": true
+                    },
+                    {
+                        "title": "",
+                        "text": "<p>L’esperienza e la professionalità dei soci produttori hanno consentito a Fimagri di affermarsi come organizzazione seria e qualificata tanto da garantirle rapporti commerciali con i brand leader del settore.</p> <p>Coadiuvato da uno staff tecnico altamente qualificato che collabora con il mondo della ricerca scientifica, Fimagri cura tutte le fasi dell’iter produttivo  dalla scelta dei semi, messo a dimora in affidati vivai si aziende associate,  alla raccolta e consegna del prodotto.</p> <p>Il pomodoro Fimagri viene coltivato secondo il metodo della produzione integrata e biologica ed è disponibile da luglio a ottobre.</p>",
+                        "imageUrl": "/images/products/Pomodoro2.png",
+                        "imageFirst": false
+                    }
+                ]
+            }
+        ]
     }
 }
