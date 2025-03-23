@@ -2,14 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Logo from '@/public/images/logo.png';
 
-import {useTranslations} from 'next-intl';
-
 export function Footer() {
     const t = useTranslations('Footer');
-    
+
     return (
         <footer className='shadow-[0_0px_10px_rgba(0,0,0,0.25)]'>
             <div className='p-4'>

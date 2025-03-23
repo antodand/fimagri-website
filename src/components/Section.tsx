@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react';
+import parse from 'html-react-parser';
 import Image from 'next/image';
 import { Link } from '@/src/i18n/navigation';
-import parse from 'html-react-parser';
 import ClientOnly from './ClientOnly';
 
 interface SectionProps {
@@ -29,6 +29,7 @@ const Section: React.FC<SectionProps> = ({
     videoUrl,
     isWideText = false
 }) => {
+
     // Classi Tailwind esplicite per evitare problemi con purge
     const textWidthClass = isWideText ? 'md:w-2/3' : 'md:w-1/2';
     const mediaWidthClass = isWideText ? 'md:w-1/3' : 'md:w-1/2';
@@ -88,7 +89,7 @@ const Section: React.FC<SectionProps> = ({
                         </div>
                     </div>
 
-                    {/* Media */}
+                    {/* Media (Video o Immagine) */}
                     <div className={`section-media ${mediaWidthClass} pl-8 py-8`}>
                         {isVideo ? (
                             <video

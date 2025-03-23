@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 import LocaleSwitcher from '@/src/components/LocaleSwitcher';
 import NavigationLink from '@/src/components/NavigationLink';
 

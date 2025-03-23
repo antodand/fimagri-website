@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import parse from 'html-react-parser';
 import Section from './Section';
+import parse from 'html-react-parser';
 import ClientOnly from './ClientOnly';
 
 interface ProductSectionProps {
@@ -42,17 +42,17 @@ const ProductSection: React.FC<ProductSectionProps> = ({
                 />
             </div>
 
-            {/* Titolo e intro */}
+            {/* Titolo e intro*/}
             {/*
-      <div className="px-8 md:px-16 mb-8">
-        <h2 className="text-3xl font-bold text-lime-600 mb-4">{name}</h2>
-        <div className="text-gray-700 space-y-4">
-          <ClientOnly>{parse(introText)}</ClientOnly>
-        </div>
-      </div>
-      */}
+            <div className="px-8 md:px-16 mb-8">
+                <h2 className="text-3xl font-bold text-lime-600 mb-4">{name}</h2>
+                <div className="text-gray-700 space-y-4">
+                    <ClientOnly>{parse(introText)}</ClientOnly>
+                </div>
+            </div>
+            */}
 
-            {/* Sezioni descrittive */}
+            {/* Sezioni */}
             {sections.map((section, index) => (
                 <div key={index} className="[&>section]:my-12"> {/* margine verticale ridotto (override tailwind)*/}
                     <Section
@@ -70,8 +70,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
                 </div>
             ))}
 
-
-            {/* Video opzionale */}
+            {/* Video (opzionale) */}
             {videoUrl && (
                 <div className="w-full px-8 md:px-16 mb-12">
                     <video

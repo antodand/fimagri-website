@@ -1,4 +1,4 @@
-// components/Banner.tsx
+// Non utilizzato
 'use client';
 
 import React from 'react';
